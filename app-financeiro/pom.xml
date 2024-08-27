@@ -2,9 +2,9 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.example</groupId>
-  <artifactId>exercicios-jpa</artifactId>
+  <artifactId>app-financeiro</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>Archetype - exercicios-jpa</name>
+  <name>Archetype - app-financeiro</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -26,17 +26,4 @@
       </plugin>
     </plugins>
   </build>
-
-  <dependencies>
-    <dependency>
-      <groupId>org.hibernate.orm</groupId>
-      <artifactId>hibernate-core</artifactId>
-      <version>6.5.2.Final</version>
-    </dependency>
-    <dependency>
-      <groupId>mysql</groupId>
-      <artifactId>mysql-connector-java</artifactId>
-      <version>8.0.16</version>
-    </dependency>
-  </dependencies>
 </project>
